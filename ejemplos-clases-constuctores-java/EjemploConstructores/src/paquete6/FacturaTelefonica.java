@@ -28,6 +28,10 @@ public class FacturaTelefonica {
 
     }
 
+   public FacturaTelefonica(String n){
+       numeroTelefono = n;
+   }
+
     public void establecerNumeroTelefono(String c) {
         numeroTelefono = c;
     }
